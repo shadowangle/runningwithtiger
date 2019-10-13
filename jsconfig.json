@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Components": ["./src/components"],
+      "@Components/*": ["./src/components/*"],
+      "@Containers": ["./src/containers"],
+      "@Containers/*": ["./src/containers/*"],
+      "@Utils": ["./src/utils"],
+      "@Utils/*": ["./src/utils/*"],
+      "@Colors": ["./src/commons/colors"],
+      "@Configs*": ["./src/configs*"],
+      "@Languages": ["./src/languages"],
+      "@Fonts": ["./src/assets/fonts"],
+      "@Images": ["./src/assets/images"],
+      "@Images/*": ["./src/assets/images/*"],
+      "@Constants": ["./src/commons/constants"],
+      "@Events": ["./src/commons/events"],
+      "@Features": ["./src/features"],
+      "@Features/*": ["./src/features/*"],
+    },
+  },
+}
